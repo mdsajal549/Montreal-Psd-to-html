@@ -1,0 +1,3025 @@
+/*Responsive for 1024px*/
+
+
+
+/*header css*/
+@media only screen and (max-width: 1024px) {
+    .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 40px 8px;
+        float: right;
+
+        padding: 15px 20px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+    }
+
+    .overlay-content {
+        margin-top: -25px;
+    }
+
+    .overlay-content a {
+        font-size: 300%;
+        text-transform: uppercase;
+        margin: 5px 0px;
+    }
+
+    nav img {
+        height: 70px;
+        font-size: 30px;
+        margin: 30px 0px 25px -150px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky menu*/
+
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #747d8c;
+        height: 80px;
+
+
+    }
+
+    .sticky span {
+
+        display: block;
+        margin: 15px 8px;
+        float: right;
+
+        padding: 5px 10px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+
+    }
+
+
+    .sticky ul {
+        margin-top: 15px;
+    }
+
+    .sticky ul li {
+        margin: 15px 20px;
+    }
+
+    .sticky img {
+        margin-left: 60px;
+        height: 50px;
+        margin: 15px;
+
+    }
+
+    /*header part start here*/
+
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+
+
+    }
+
+    nav {}
+
+    nav ul {
+        float: right;
+        margin-top: 65px;
+        margin-right: 40px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    nav ul li a {
+        font-size: 200%;
+        color: #ffda00;
+        text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+        color: #fff;
+
+    }
+
+    nav img {
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    /*header text css*/
+    header .text h1 {
+        color: #ffdb00;
+        font-size: 600%;
+        margin-top: 200px;
+        display: inline-block;
+        float: left;
+        margin-left: -80px;
+        text-align: justify;
+
+
+
+    }
+
+
+
+    header .text p {
+        color: #fff;
+
+        display: inline-block;
+        font-size: 140%;
+
+
+        margin: 10px 100px 0px 60px;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+
+    header .text button {
+        width: 230px;
+        height: 60px;
+        margin-top: 80px;
+        margin-left: 60px;
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+
+    }
+
+    header .text button:hover {
+        background: #ffda00;
+        color: #17191e;
+    }
+
+
+
+    /*header part end here*/
+
+
+    /*about css*/
+    .about {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .about h2 {
+        margin-top: 70px;
+        display: inline-block;
+        font-size: 400%;
+        color: #181a1f;
+        text-transform: uppercase;
+
+    }
+
+    .about p {
+        color: #181a1f;
+        text-align: justify;
+        font-size: 150%;
+        margin-top: 60px;
+        line-height: 1.5;
+    }
+
+
+
+
+    .about button {
+        width: 230px;
+        height: 60px;
+        margin-top: 25px;
+        margin-left: -10px;
+
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .about button:hover {
+        background: #fff;
+        color: #17191e;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*service part start here*/
+    .service {
+        width: 100%;
+        height: 150vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+
+
+
+    .service h2 {
+        font-size: 400%;
+        margin-top: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+
+
+    }
+
+
+    .grid-service-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-service-col-3 img {
+        margin-top: 50px;
+        background: #ffda00;
+        border: 1px solid #ffda00;
+        padding: 30px;
+
+    }
+
+    .grid-service-col-3 h3 {
+        font-size: 300%;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #ffdb00;
+
+
+    }
+
+    .grid-service-col-3 p {
+        font-size: 150%;
+        color: #36383b;
+        margin-top: 10px;
+    }
+
+    .service button {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .service button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*project complete section*/
+
+    .complete-project {
+        width: 100%;
+        height: 90vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+    }
+
+
+    .grid-complete-project-col-4 {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-complete-project-col-4 img {
+        margin-top: 80px;
+
+    }
+
+    .grid-complete-project-col-4 h3 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 600%;
+
+    }
+
+    .grid-complete-project-col-4 h4 {
+        margin-top: 20px;
+        color: #eac903;
+        font-size: 200%;
+
+    }
+
+
+    /*work section*/
+
+
+    /*work section start*/
+    .work {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .work h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .work p {
+        font-size: 200%;
+        color: #616264;
+        margin-top: 30px;
+
+    }
+
+    .grid-work-col-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        grid-row-gap: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .work button {
+        margin: 40px 10px 50px 5px;
+        padding: 10px 20px;
+        background: #fff;
+        border: 1px solid #ffda00;
+        font-size: 100%;
+        color: #4d4e52;
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+
+    .work button:hover {
+        background: #ffda00;
+
+    }
+
+    .grid-work-col-4 img:hover {
+        opacity: 0.6;
+        background: #616264;
+    }
+
+    .work .btn button {
+
+
+        width: 250px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: -5px;
+
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+
+
+
+    }
+
+    .work .btn button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+    /*client section*/
+
+    .client {
+
+        width: 100%;
+        height: 105vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .client h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .client p {
+        font-size: 160%;
+        color: #929294;
+
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .grid-client-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-client-col-4 img {
+        margin-top: 50px;
+    }
+
+    .client .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    /*contact start here*/
+    .contact {
+        width: 100%;
+        height: 110vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .contact p {
+        font-size: 160%;
+        color: #36383b;
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .contact form input[type='text'] {
+        width: 225px;
+        height: 50px;
+        margin: 40px 10px 10px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form .subject input[type='text'] {
+        width: 480px;
+        height: 50px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form input[type='email'] {
+        width: 225px;
+        height: 50px;
+        margin: 20px 10px 15px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form textarea {
+        width: 480px;
+        height: 150px;
+        margin: 15px 10px 100px -130px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+    }
+
+    .contact form button {
+        width: 200px;
+        height: 50px;
+
+
+        margin-left: -350px;
+
+
+        margin-top: 100px;
+        display: inline-block;
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 200%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .contact form button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*contact-2 start here*/
+    .contact-2 {
+        width: 100%;
+        height: 70vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .grid-contact-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-col-3 img {
+        margin-top: 70px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 20px;
+        margin-left: 70px;
+
+    }
+
+    .grid-contact-col-3 span {
+        margin-top: 90px;
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 200%;
+
+    }
+
+    .grid-contact-col-3 .item-3 img {
+        margin-top: 80px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 18px 20px;
+        margin-left: 70px;
+
+    }
+
+
+    /*footer start here*/
+    footer {
+        background: #17191e;
+        width: 100%;
+        height: 20vh;
+    }
+
+    footer span {
+        font-size: 160%;
+        color: #fff;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    footer span h4 {
+        color: #ffdb00;
+        display: inline-block;
+    }
+
+
+
+    footer a i {
+        color: #fff;
+        font-size: 160%;
+        margin: 14px;
+
+
+
+    }
+
+    footer img {
+        color: #fff;
+        margin-left: 20px;
+
+
+
+
+
+    }
+
+    footer a i:hover {
+        color: #ffdb00;
+    }
+
+    footer a img:hover {
+        color: #ffdb00;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*Responsive for 767px*/
+
+
+/*header css*/
+@media only screen and (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 40px 8px;
+        float: right;
+
+        padding: 15px 20px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+    }
+
+    .overlay-content {
+        margin-top: -25px;
+    }
+
+    .overlay-content a {
+        font-size: 300%;
+        text-transform: uppercase;
+        margin: 5px 0px;
+    }
+
+    nav img {
+        height: 70px;
+        font-size: 30px;
+        margin: 30px 0px 25px -150px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky menu*/
+
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #747d8c;
+        height: 80px;
+
+
+    }
+
+    .sticky span {
+
+        display: block;
+        margin: 15px 8px;
+        float: right;
+
+        padding: 5px 10px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+
+    }
+
+
+    .sticky ul {
+        margin-top: 15px;
+    }
+
+    .sticky ul li {
+        margin: 15px 20px;
+    }
+
+    .sticky img {
+        margin-left: 60px;
+        height: 50px;
+        margin: 15px;
+
+    }
+
+    /*header part start here*/
+
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+
+
+    }
+
+    nav {}
+
+    nav ul {
+        float: right;
+        margin-top: 65px;
+        margin-right: 40px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    nav ul li a {
+        font-size: 200%;
+        color: #ffda00;
+        text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+        color: #fff;
+
+    }
+
+    nav img {
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    /*header text css*/
+    header .text h1 {
+        color: #ffdb00;
+        font-size: 600%;
+        margin-top: 200px;
+        display: inline-block;
+        float: left;
+        margin-left: -80px;
+        text-align: justify;
+
+
+
+    }
+
+
+
+    header .text p {
+        color: #fff;
+
+        display: inline-block;
+        font-size: 140%;
+
+
+        margin: 10px 100px 0px 60px;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+
+    header .text button {
+        width: 230px;
+        height: 60px;
+        margin-top: 80px;
+        margin-left: 60px;
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+
+    }
+
+    header .text button:hover {
+        background: #ffda00;
+        color: #17191e;
+    }
+
+
+
+    /*header part end here*/
+
+
+    /*about css*/
+    .about {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .about h2 {
+        margin-top: 70px;
+        display: inline-block;
+        font-size: 400%;
+        color: #181a1f;
+        text-transform: uppercase;
+
+    }
+
+    .about p {
+        color: #181a1f;
+        text-align: justify;
+        font-size: 150%;
+        margin-top: 60px;
+        line-height: 1.5;
+    }
+
+
+
+
+    .about button {
+        width: 230px;
+        height: 60px;
+        margin-top: 25px;
+        margin-left: -10px;
+
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .about button:hover {
+        background: #fff;
+        color: #17191e;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*service part start here*/
+    .service {
+        width: 100%;
+        height: 150vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+
+
+
+    .service h2 {
+        font-size: 400%;
+        margin-top: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+
+
+    }
+
+
+    .grid-service-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-service-col-3 img {
+        margin-top: 50px;
+        background: #ffda00;
+        border: 1px solid #ffda00;
+        padding: 30px;
+
+    }
+
+    .grid-service-col-3 h3 {
+        font-size: 300%;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #ffdb00;
+
+
+    }
+
+    .grid-service-col-3 p {
+        font-size: 150%;
+        color: #36383b;
+        margin-top: 10px;
+    }
+
+    .service button {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .service button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*project complete section*/
+
+    .complete-project {
+        width: 100%;
+        height: 90vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+    }
+
+
+    .grid-complete-project-col-4 {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-complete-project-col-4 img {
+        margin-top: 80px;
+
+    }
+
+    .grid-complete-project-col-4 h3 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 600%;
+
+    }
+
+    .grid-complete-project-col-4 h4 {
+        margin-top: 20px;
+        color: #eac903;
+        font-size: 200%;
+
+    }
+
+
+    /*work section*/
+
+
+    /*work section start*/
+    .work {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .work h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .work p {
+        font-size: 200%;
+        color: #616264;
+        margin-top: 30px;
+
+    }
+
+    .grid-work-col-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        grid-row-gap: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .work button {
+        margin: 40px 10px 50px 5px;
+        padding: 10px 20px;
+        background: #fff;
+        border: 1px solid #ffda00;
+        font-size: 100%;
+        color: #4d4e52;
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+
+    .work button:hover {
+        background: #ffda00;
+
+    }
+
+    .grid-work-col-4 img:hover {
+        opacity: 0.6;
+        background: #616264;
+    }
+
+    .work .btn button {
+
+
+        width: 250px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: -5px;
+
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+
+
+
+    }
+
+    .work .btn button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+    /*client section*/
+
+    .client {
+
+        width: 100%;
+        height: 105vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .client h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .client p {
+        font-size: 160%;
+        color: #929294;
+
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .grid-client-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-client-col-4 img {
+        margin-top: 50px;
+    }
+
+    .client .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    /*contact start here*/
+    .contact {
+        width: 100%;
+        height: 110vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .contact p {
+        font-size: 160%;
+        color: #36383b;
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .contact form input[type='text'] {
+        width: 225px;
+        height: 50px;
+        margin: 40px 10px 10px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form .subject input[type='text'] {
+        width: 480px;
+        height: 50px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form input[type='email'] {
+        width: 225px;
+        height: 50px;
+        margin: 20px 10px 15px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form textarea {
+        width: 480px;
+        height: 150px;
+        margin: 15px 10px 100px -130px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+    }
+
+    .contact form button {
+        width: 200px;
+        height: 50px;
+
+
+        margin-left: -350px;
+
+
+        margin-top: 100px;
+        display: inline-block;
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 200%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .contact form button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*contact-2 start here*/
+    .contact-2 {
+        width: 100%;
+        height: 70vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .grid-contact-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-col-3 img {
+        margin-top: 70px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 20px;
+        margin-left: 70px;
+
+    }
+
+    .grid-contact-col-3 span {
+        margin-top: 90px;
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 200%;
+
+    }
+
+    .grid-contact-col-3 .item-3 img {
+        margin-top: 80px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 18px 20px;
+        margin-left: 70px;
+
+    }
+
+
+    /*footer start here*/
+    footer {
+        background: #17191e;
+        width: 100%;
+        height: 20vh;
+    }
+
+    footer span {
+        font-size: 160%;
+        color: #fff;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    footer span h4 {
+        color: #ffdb00;
+        display: inline-block;
+    }
+
+
+
+    footer a i {
+        color: #fff;
+        font-size: 160%;
+        margin: 14px;
+
+
+
+    }
+
+    footer img {
+        color: #fff;
+        margin-left: 20px;
+
+
+
+
+
+    }
+
+    footer a i:hover {
+        color: #ffdb00;
+    }
+
+    footer a img:hover {
+        color: #ffdb00;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*humberger menu mobile view*/
+/*mobile menu start*/
+/*responsive for 480px*/
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+
+    }
+
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+/*header css*/
+@media only screen and (max-width: 480px) {
+    .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 40px 8px;
+        float: right;
+
+        padding: 15px 20px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+    }
+
+    .overlay-content {
+        margin-top: -25px;
+    }
+
+    .overlay-content a {
+        font-size: 300%;
+        text-transform: uppercase;
+        margin: 5px 0px;
+    }
+
+    nav img {
+        height: 70px;
+        font-size: 30px;
+        margin: 30px 0px 25px -150px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky menu*/
+
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #747d8c;
+        height: 80px;
+
+
+    }
+
+    .sticky span {
+
+        display: block;
+        margin: 15px 8px;
+        float: right;
+
+        padding: 5px 10px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+
+    }
+
+
+    .sticky ul {
+        margin-top: 15px;
+    }
+
+    .sticky ul li {
+        margin: 15px 20px;
+    }
+
+    .sticky img {
+        margin-left: 60px;
+        height: 50px;
+        margin: 15px;
+
+    }
+
+    /*header part start here*/
+
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+
+
+    }
+
+    nav {}
+
+    nav ul {
+        float: right;
+        margin-top: 65px;
+        margin-right: 40px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    nav ul li a {
+        font-size: 200%;
+        color: #ffda00;
+        text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+        color: #fff;
+
+    }
+
+    nav img {
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    /*header text css*/
+    header .text h1 {
+        color: #ffdb00;
+        font-size: 600%;
+        margin-top: 200px;
+        display: inline-block;
+        float: left;
+        margin-left: -100px;
+        text-align: justify;
+
+
+
+    }
+
+
+
+    header .text p {
+        color: #fff;
+
+        display: inline-block;
+        font-size: 150%;
+
+
+        margin: 10px 100px 0px 60px;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+
+    header .text button {
+        width: 230px;
+        height: 60px;
+        margin-top: 80px;
+        margin-left: 60px;
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+
+    }
+
+    header .text button:hover {
+        background: #ffda00;
+        color: #17191e;
+    }
+
+
+
+    /*header part end here*/
+
+
+    /*about css*/
+    .about {
+        width: 100%;
+        height: 85vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .about h2 {
+        margin-top: 70px;
+        display: inline-block;
+        font-size: 400%;
+        color: #181a1f;
+        text-transform: uppercase;
+
+    }
+
+    .about p {
+        color: #181a1f;
+        text-align: justify;
+        font-size: 150%;
+        margin-top: 60px;
+        line-height: 1.5;
+    }
+
+
+
+
+    .about button {
+        width: 230px;
+        height: 60px;
+        margin-top: 25px;
+        margin-left: -10px;
+
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .about button:hover {
+        background: #fff;
+        color: #17191e;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*service part start here*/
+    .service {
+        width: 100%;
+        height: 150vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+
+
+
+    .service h2 {
+        font-size: 400%;
+        margin-top: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+
+
+    }
+
+
+    .grid-service-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-service-col-3 img {
+        margin-top: 50px;
+        background: #ffda00;
+        border: 1px solid #ffda00;
+        padding: 30px;
+
+    }
+
+    .grid-service-col-3 h3 {
+        font-size: 300%;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #ffdb00;
+
+
+    }
+
+    .grid-service-col-3 p {
+        font-size: 150%;
+        color: #36383b;
+        margin-top: 10px;
+    }
+
+    .service button {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .service button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*project complete section*/
+
+    .complete-project {
+        width: 100%;
+        height: 165vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+    }
+
+
+    .grid-complete-project-col-4 {
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-complete-project-col-4 img {
+        margin-top: 80px;
+
+    }
+
+    .grid-complete-project-col-4 h3 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 600%;
+
+    }
+
+    .grid-complete-project-col-4 h4 {
+        margin-top: 20px;
+        color: #eac903;
+        font-size: 200%;
+
+    }
+
+
+    /*work section*/
+
+
+    /*work section start*/
+    .work {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .work h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .work p {
+        font-size: 200%;
+        color: #616264;
+        margin-top: 30px;
+
+    }
+
+    .grid-work-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        grid-row-gap: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .work button {
+        margin: 40px 10px 50px 5px;
+        padding: 10px 20px;
+        background: #fff;
+        border: 1px solid #ffda00;
+        font-size: 100%;
+        color: #4d4e52;
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+
+    .work button:hover {
+        background: #ffda00;
+
+    }
+
+    .grid-work-col-4 img:hover {
+        opacity: 0.6;
+        background: #616264;
+    }
+
+    .work .btn button {
+
+
+        width: 250px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: -5px;
+
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+
+
+
+    }
+
+    .work .btn button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+    /*client section*/
+
+    .client {
+
+        width: 100%;
+        height: 105vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .client h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .client p {
+        font-size: 160%;
+        color: #929294;
+
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .grid-client-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-client-col-4 img {
+        margin-top: 50px;
+    }
+
+    .client .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    /*contact start here*/
+    .contact {
+        width: 100%;
+        height: 120vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .contact p {
+        font-size: 160%;
+        color: #36383b;
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .contact form input[type='text'] {
+        width: 225px;
+        height: 50px;
+        margin: 40px 10px 10px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form .subject input[type='text'] {
+        width: 400px;
+        height: 50px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form input[type='email'] {
+        width: 225px;
+        height: 50px;
+        margin: 20px 10px 15px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form textarea {
+        width: 400px;
+        height: 150px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+    }
+
+    .contact form button {
+        width: 200px;
+        height: 50px;
+        margin-left: -10px;
+
+
+        margin-top: 20px;
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 200%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .contact form button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*contact-2 start here*/
+    .contact-2 {
+        width: 100%;
+        height: 70vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .grid-contact-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-col-3 img {
+        margin-top: 70px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 20px;
+        margin-left: 70px;
+
+    }
+
+    .grid-contact-col-3 span {
+        margin-top: 90px;
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 200%;
+
+    }
+
+    .grid-contact-col-3 .item-3 img {
+        margin-top: 80px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 18px 20px;
+        margin-left: 70px;
+
+    }
+
+
+    /*footer start here*/
+    footer {
+        background: #17191e;
+        width: 100%;
+        height: 20vh;
+    }
+
+    footer span {
+        font-size: 160%;
+        color: #fff;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    footer span h4 {
+        color: #ffdb00;
+        display: inline-block;
+    }
+
+
+
+    footer a i {
+        color: #fff;
+        font-size: 160%;
+        margin: 14px;
+
+
+
+    }
+
+    footer img {
+        color: #fff;
+        margin-left: 20px;
+
+
+
+
+
+    }
+
+    footer a i:hover {
+        color: #ffdb00;
+    }
+
+    footer a img:hover {
+        color: #ffdb00;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+/*==========resoponsive for 414 start==========*/
+
+@media only screen and (max-width: 768px) {
+
+    /*contact start here*/
+    .contact {
+        width: 100%;
+        height: 120vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .contact p {
+        font-size: 160%;
+        color: #36383b;
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .contact form input[type='text'] {
+        width: 225px;
+        height: 50px;
+        margin: 40px 10px 10px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form .subject input[type='text'] {
+        width: 350px;
+        height: 50px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form input[type='email'] {
+        width: 225px;
+        height: 50px;
+        margin: 20px 10px 15px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form textarea {
+        width: 350px;
+        height: 150px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+    }
+
+    .contact form button {
+        width: 200px;
+        height: 50px;
+        margin-left: -10px;
+
+
+        margin-top: 20px;
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 200%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .contact form button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*contact-2 start here*/
+    .contact-2 {
+        width: 100%;
+        height: 70vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .grid-contact-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-col-3 img {
+        margin-top: 70px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 20px;
+        margin-left: 20px;
+
+    }
+
+    .grid-contact-col-3 span {
+        margin-top: 90px;
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 200%;
+
+    }
+
+    .grid-contact-col-3 .item-3 img {
+        margin-top: 80px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 18px 20px;
+        margin-left: 20px;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/*==========resoponsive for 375 start==========*/
+
+
+/*humberger menu mobile view*/
+/*mobile menu start*/
+
+@media screen and (max-height: 375px) {
+    .overlay a {
+        font-size: 20px;
+
+    }
+
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+/*header css*/
+@media only screen and (max-width: 375px) {
+    .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 40px 8px;
+        float: right;
+
+        padding: 15px 20px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+    }
+
+    .overlay-content {
+        margin-top: -25px;
+    }
+
+    .overlay-content a {
+        font-size: 300%;
+        text-transform: uppercase;
+        margin: 5px 0px;
+    }
+
+    nav img {
+        height: 70px;
+        font-size: 30px;
+        margin: 30px 0px 25px 20px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky menu*/
+
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #747d8c;
+        height: 80px;
+
+
+    }
+
+    .sticky span {
+
+        display: block;
+        margin: 15px 8px;
+        float: right;
+
+        padding: 5px 10px;
+        border: 1px solid #ffda00;
+
+        color: #17191e;
+        background: #ffda00;
+
+    }
+
+
+    .sticky ul {
+        margin-top: 15px;
+    }
+
+    .sticky ul li {
+        margin: 15px 20px;
+    }
+
+    .sticky img {
+        margin-left: 60px;
+        height: 50px;
+        margin: 15px;
+
+    }
+
+    /*header part start here*/
+
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/header-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+        position: relative;
+
+
+    }
+
+    nav {}
+
+    nav ul {
+        float: right;
+        margin-top: 65px;
+        margin-right: 40px;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    nav ul li a {
+        font-size: 200%;
+        color: #ffda00;
+        text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+        color: #fff;
+
+    }
+
+    nav img {
+        float: left;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    /*header text css*/
+    header .text h1 {
+        color: #ffdb00;
+        font-size: 400%;
+        margin-top: 200px;
+        display: inline-block;
+        float: left;
+        margin-left: -70px;
+        text-align: justify;
+
+
+
+    }
+
+
+
+    header .text p {
+        color: #fff;
+
+        display: inline-block;
+        font-size: 150%;
+
+
+        margin: 10px 100px 0px 55px;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+
+    header .text button {
+        width: 200px;
+        height: 50px;
+        margin-top: 60px;
+        margin-left: 60px;
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+
+    }
+
+    header .text button:hover {
+        background: #ffda00;
+        color: #17191e;
+    }
+
+
+
+    /*header part end here*/
+
+
+    /*about css*/
+    .about {
+        width: 100%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/about-bg.jpg) no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .about h2 {
+        margin-top: 70px;
+        display: inline-block;
+        font-size: 400%;
+        color: #181a1f;
+        text-transform: uppercase;
+
+    }
+
+    .about p {
+        color: #181a1f;
+        text-align: justify;
+        font-size: 150%;
+        margin-top: 60px;
+        line-height: 1.5;
+    }
+
+
+
+
+    .about button {
+        width: 200px;
+        height: 50px;
+        margin-top: 25px;
+        margin-left: 5px;
+
+        float: left;
+        color: #fff;
+        font-size: 160%;
+        background: #17191e;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .about button:hover {
+        background: #fff;
+        color: #17191e;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*service part start here*/
+    .service {
+        width: 100%;
+        height: 155vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/service-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+
+
+
+    .service h2 {
+        font-size: 400%;
+        margin-top: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+
+
+    }
+
+
+    .grid-service-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-service-col-3 img {
+        margin-top: 50px;
+        background: #ffda00;
+        border: 1px solid #ffda00;
+        padding: 30px;
+
+    }
+
+    .grid-service-col-3 h3 {
+        font-size: 300%;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #ffdb00;
+
+
+    }
+
+    .grid-service-col-3 p {
+        font-size: 150%;
+        color: #36383b;
+        margin-top: 10px;
+    }
+
+    .service button {
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .service button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*project complete section*/
+
+    .complete-project {
+        width: 100%;
+        height: 165vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/project-bg-2.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+    }
+
+
+    .grid-complete-project-col-4 {
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-complete-project-col-4 img {
+        margin-top: 80px;
+
+    }
+
+    .grid-complete-project-col-4 h3 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 600%;
+
+    }
+
+    .grid-complete-project-col-4 h4 {
+        margin-top: 20px;
+        color: #eac903;
+        font-size: 200%;
+
+    }
+
+
+    /*work section*/
+
+
+    /*work section start*/
+    .work {
+        width: 100%;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/work-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .work h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .work p {
+        font-size: 160%;
+        color: #616264;
+        margin-top: 30px;
+
+    }
+
+    .grid-work-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        grid-row-gap: 30px;
+        padding-bottom: 100px;
+
+    }
+
+    .work button {
+        margin: 40px 5px 30px 5px;
+        padding: 5px 10px;
+        background: #fff;
+        border: 1px solid #ffda00;
+        font-size: 100%;
+        color: #4d4e52;
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+
+    .work button:hover {
+        background: #ffda00;
+
+    }
+
+    .grid-work-col-4 img:hover {
+        opacity: 0.6;
+        background: #616264;
+    }
+
+    .work .btn button {
+
+
+        width: 200px;
+        height: 50px;
+        margin-left: 5px;
+        margin-top: -15px;
+
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+
+
+
+    }
+
+    .work .btn button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+    /*client section*/
+
+    .client {
+
+        width: 100%;
+        height: 110vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 25, 30, 0.8)), to(rgba(23, 25, 30, 0.8))),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(23, 25, 30, 0.8), rgba(23, 25, 30, 0.8)),
+            url(img/client-bg-1.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+    }
+
+    .client h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+
+    }
+
+    .client p {
+        font-size: 160%;
+        color: #929294;
+
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .grid-client-col-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .grid-client-col-4 img {
+        margin-top: 50px;
+    }
+
+    .client .dot {
+
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 2px 0px 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-transition: background-color 0.6s ease;
+        transition: background-color 0.6s ease;
+    }
+
+    /*contact start here*/
+    .contact {
+        width: 100%;
+        height: 120vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+            url(img/contact-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+
+
+
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #ffdb00;
+        margin-top: 70px;
+        display: inline-block;
+    }
+
+    .contact p {
+        font-size: 160%;
+        color: #36383b;
+        text-align: center;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .contact form input[type='text'] {
+        width: 200px;
+        height: 40px;
+        margin: 40px 10px 10px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form .subject input[type='text'] {
+        width: 300px;
+        height: 40px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form input[type='email'] {
+        width: 200px;
+        height: 40px;
+        margin: 20px 10px 15px 10px;
+
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+
+    }
+
+    .contact form textarea {
+        width: 300px;
+        height: 150px;
+        margin: 15px 10px;
+        border: 2px solid #17191e;
+        font-size: 160%;
+        color: #4d4e51;
+    }
+
+    .contact form button {
+        width: 200px;
+        height: 50px;
+        margin-left: -10px;
+
+
+        margin-top: 30px;
+
+
+        text-align: center;
+        color: #36383b;
+        font-size: 160%;
+        background: #fff;
+        border: 1px solid #ffda00;
+        border-radius: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .contact form button:hover {
+        background: #ffda00;
+        color: #36383b;
+
+        border: 1px solid #ffda00;
+
+    }
+
+
+    /*contact-2 start here*/
+    .contact-2 {
+        width: 100%;
+        height: 75vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 218, 0, 0.8)), to(rgba(255, 218, 0, 0.8))),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background: linear-gradient(rgba(255, 218, 0, 0.8), rgba(255, 218, 0, 0.8)),
+            url(img/contact-2-bg.jpg)no-repeat center/cover;
+        background-attachment: fixed;
+    }
+
+    .grid-contact-col-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-col-3 img {
+        margin-top: 70px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 15px;
+        margin-left: 5px;
+
+    }
+
+    .grid-contact-col-3 span {
+        margin-top: 90px;
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 200%;
+
+    }
+
+    .grid-contact-col-3 .item-3 img {
+        margin-top: 80px;
+        float: left;
+        background: #17191e;
+        border: 1px solid #17191e;
+        padding: 15px 18px;
+        margin-left: 5px;
+
+    }
+
+
+    /*footer start here*/
+    footer {
+        background: #17191e;
+        width: 100%;
+        height: 20vh;
+    }
+
+    footer span {
+        font-size: 160%;
+        color: #fff;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    footer span h4 {
+        color: #ffdb00;
+        display: inline-block;
+    }
+
+
+
+    footer a i {
+        color: #fff;
+        font-size: 160%;
+        margin: 14px;
+
+
+
+    }
+
+    footer img {
+        color: #fff;
+        margin-left: 20px;
+
+
+
+
+
+    }
+
+    footer a i:hover {
+        color: #ffdb00;
+    }
+
+    footer a img:hover {
+        color: #ffdb00;
+
+    }
+
+
+
+
+
+
+
+
+}
